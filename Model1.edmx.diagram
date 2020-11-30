@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1ad1e97ee75544ed98ceb1a2157bdb28" Name="Diagram1">
+        <EntityTypeShape EntityType="MarathonSystemModel.Charity" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.CheckPoints" Width="1.5" PointX="7.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Country" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Distance" Width="1.5" PointX="9.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Event" Width="1.5" PointX="5.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.EventType" Width="1.5" PointX="3" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Gender" Width="1.5" PointX="0.75" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.MarathonList" Width="1.5" PointX="3" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.RaceKitOption" Width="1.5" PointX="3" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Registration" Width="1.5" PointX="5.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.RegistrationEvent" Width="1.5" PointX="7.5" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.RegistrationStatus" Width="1.5" PointX="3" PointY="22" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Role" Width="1.5" PointX="1.5" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Runner" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Speed" Width="1.5" PointX="9.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Sponsorship" Width="1.5" PointX="7.5" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.sysdiagrams" Width="1.5" PointX="9.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.User" Width="1.5" PointX="0.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="MarathonSystemModel.Volunter" Width="1.5" PointX="3" PointY="11.875" IsExpanded="true" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Registration_Charity" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK__Runner__CountryC__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_MarathonList_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_marathon_skills_2016_volunteer_list_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Event_EventType" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Event_MarathonList" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_RegistrationEvent_Event" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK__Runner__Gender__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_marathon_skills_2016_volunteer_list_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Registration_RaceKitOption" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Registration_RegistrationStatus" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Registration_Runner" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_RegistrationEvent_Registration" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK_Sponsorship_Registration" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK__User__RoleId__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="MarathonSystemModel.FK__Runner__Email__534D60F1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
